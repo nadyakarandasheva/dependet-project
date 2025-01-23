@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "ui-library"
+      ],
+      "groupName": "UI Library Updates",
+      "automerge": true
+    }
+  ]
+}

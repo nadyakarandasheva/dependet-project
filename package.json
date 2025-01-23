@@ -1,11 +1,20 @@
 {
-  "name": "dependet-project",
+  "name": "dependent-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Проект, использующий UI-библиотеку",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "build": "vite build",
+    "install:ui-library": "npm install ui-library",
+    "update:ui-library": "npm update ui-library"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "ui-library": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
 }
