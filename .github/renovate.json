@@ -4,11 +4,13 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "ui-library"
+      "matchPackageNames": [
+        "@nadyakarandasheva/ui-library"
       ],
       "groupName": "UI Library Updates",
-      "automerge": true
+      "schedule": [
+        "at any time"
+      ]
     }
   ]
 }
