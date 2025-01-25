@@ -1,8 +1,9 @@
 name: Renovate Bot
 
 on:
-  schedule:
-    - cron: '0 20 * * *'  # Запуск каждый день в 20:00 UTC
+  pull_request:
+    branches:
+      - test  # Запускать при PR в ветку test
   workflow_dispatch:  # Возможность запустить вручную
 
 jobs:
