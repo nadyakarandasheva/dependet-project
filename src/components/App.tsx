@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button } from 'ui-library';
+import { Button } from '@nadyakarandasheva/ui-library/dist/index.esm.js';
 
-const App = () => {
+export const App = () => {
   return (
     <div>
       <h1>Проект с UI-библиотекой</h1>
@@ -9,5 +9,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
