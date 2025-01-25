@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@nadyakarandasheva/ui-library/dist/index.esm.js';
+import { Button } from '@nadyakarandasheva/ui-library';
 
 export const App = () => {
   return (
