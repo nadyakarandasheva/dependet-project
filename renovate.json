@@ -3,9 +3,6 @@
     "config:base"
   ],
   "platform": "github",
-  "repositories": [
-    "nadyakarandasheva/ui-library"
-  ],
   "hostRules": [
     {
       "hostType": "npm",
@@ -21,6 +18,7 @@
       "matchPackageNames": [
         "@nadyakarandasheva/ui-library"
       ],
+      "groupName": "UI Library Updates",
       "enabled": true
     }
   ]
