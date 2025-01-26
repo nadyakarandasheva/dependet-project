@@ -21,14 +21,6 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           RENOVATE_CONFIG: >  # Указываем конфигурацию напрямую
             {
-              "platform": "github",
-              "hostRules": [
-                {
-                  "hostType": "npm",
-                  "matchHost": "npm.pkg.github.com",
-                  "token": "${{ secrets.NPM_TOKEN }}"
-                }
-              ],
               "enabledManagers": ["npm"],
               "packageRules": [
                 {
