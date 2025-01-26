@@ -26,7 +26,7 @@ jobs:
               "packageRules": [
                 {
                   "matchPackageNames": ["@nadyakarandasheva/ui-library"],
-                  "depTypeList": ["dependencies", "devDependencies"],
+                  "matchDepTypes": ["dependencies", "devDependencies"],
                   "enabled": true,
                   "groupName": "UI Library Updates"
                 }
