@@ -5,7 +5,7 @@ export const App = () => {
   return (
     <div>
       <h1>Проект с UI-библиотекой</h1>
-      <Button label="click!" onClick={() => alert('You can click!')} />
+      <Button label="click!" onClick={() => alert('You click!')} />
     </div>
   );
 };
