@@ -32,13 +32,16 @@ jobs:
                   "token": "${{ secrets.NPM_TOKEN }}"
                 }
               ],
+              
               "packageRules": [
                 {
                   "matchPackageNames": ["@nadyakarandasheva/ui-library"],
                   "matchDepTypes": ["dependencies", "devDependencies"],
                   "enabled": true,
                   "groupName": "UI Library Updates",
-                  "registryUrls": ["https://npm.pkg.github.com"]
+                  "registryUrls": ["https://npm.pkg.github.com"],
+                  "rangeStrategy": "bump",
+                  "force": true
                 }
               ]
             }
