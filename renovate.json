@@ -3,12 +3,11 @@
     "config:base"
   ],
   "platform": "github",
-  "token": "${{ secrets.RENOVATE_TOKEN }}",
   "hostRules": [
     {
       "hostType": "npm",
       "matchHost": "npm.pkg.github.com",
-      "token": "${{ secrets.RENOVATE_TOKEN }}"
+      "token": "${NPM_TOKEN}"
     }
   ],
   "enabledManagers": [
