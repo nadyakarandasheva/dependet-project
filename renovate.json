@@ -19,13 +19,6 @@
         "@nadyakarandasheva/ui-library"
       ],
       "enabled": true
-    },
-    {
-      "matchDepTypes": [
-        "dependencies",
-        "devDependencies"
-      ],
-      "enabled": false
     }
   ]
 }
