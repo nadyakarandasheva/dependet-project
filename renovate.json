@@ -3,6 +3,9 @@
     "config:base"
   ],
   "platform": "github",
+  "repositories": [
+    "nadyakarandasheva/ui-library"
+  ],
   "hostRules": [
     {
       "hostType": "npm",
