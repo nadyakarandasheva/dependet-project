@@ -35,7 +35,8 @@ jobs:
                   "matchPackageNames": ["@nadyakarandasheva/ui-library"],
                   "matchDepTypes": ["dependencies", "devDependencies"],
                   "enabled": true,
-                  "groupName": "UI Library Updates"
+                  "groupName": "UI Library Updates",
+                  "registryUrls": ["https://npm.pkg.github.com"]
                 }
               ]
             }
