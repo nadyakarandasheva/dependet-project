@@ -21,7 +21,6 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           RENOVATE_CONFIG: >  # Указываем конфигурацию напрямую
             {
-              "repositories": ["nadyakarandasheva/dependet-project"],
               "enabledManagers": ["npm"],
               "hostRules": [
                 {
