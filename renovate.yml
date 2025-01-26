@@ -2,10 +2,13 @@ extends:
   - config:base
 
 platform: github
+repositories:
+  - nadyakarandasheva/ui-library
+
 hostRules:
   - hostType: npm
     matchHost: npm.pkg.github.com
-    token: "${NPM_TOKEN}"
+    token: "${{ secrets.NPM_TOKEN }}"
 
 enabledManagers:
   - npm
@@ -13,7 +16,5 @@ enabledManagers:
 packageRules:
   - matchPackageNames:
       - "@nadyakarandasheva/ui-library"
-    groupName: "UI Library Updates"
     enabled: true
-    versioning: npm
-
+    groupName: "UI Library Updates"
