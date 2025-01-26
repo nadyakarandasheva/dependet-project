@@ -4,15 +4,22 @@
   ],
   "platform": "github",
   "token": "${{ secrets.RENOVATE_TOKEN }}",
+  "enabledManagers": [
+    "npm"
+  ],
   "packageRules": [
     {
       "matchPackageNames": [
         "@nadyakarandasheva/ui-library"
       ],
-      "groupName": "UI Library Updates",
-      "schedule": [
-        "at any time"
-      ]
+      "enabled": true
+    },
+    {
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies"
+      ],
+      "enabled": false
     }
   ]
 }
