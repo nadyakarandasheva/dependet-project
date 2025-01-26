@@ -8,7 +8,7 @@ repositories:
 hostRules:
   - hostType: npm
     matchHost: npm.pkg.github.com
-    token: "${{ secrets.NPM_TOKEN }}"
+    token: "${{ secrets.RENOVATE_TOKEN }}"
 
 enabledManagers:
   - npm
