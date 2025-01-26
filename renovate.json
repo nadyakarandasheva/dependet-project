@@ -4,6 +4,13 @@
   ],
   "platform": "github",
   "token": "${{ secrets.RENOVATE_TOKEN }}",
+  "hostRules": [
+    {
+      "hostType": "npm",
+      "matchHost": "npm.pkg.github.com",
+      "token": "${{ secrets.RENOVATE_TOKEN }}"
+    }
+  ],
   "enabledManagers": [
     "npm"
   ],
