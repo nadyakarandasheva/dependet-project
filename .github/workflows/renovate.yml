@@ -22,7 +22,7 @@ jobs:
           RENOVATE_CONFIG: >  # Указываем конфигурацию напрямую
             {
               "platform": "github",
-              "repositories": ["nadyakarandasheva/ui-library"],
+              "repositories": ["nadyakarandasheva/dependent-project"],
               "hostRules": [
                 {
                   "hostType": "npm",
