@@ -23,6 +23,13 @@ jobs:
             {
               "repositories": ["nadyakarandasheva/dependet-project"],
               "enabledManagers": ["npm"],
+              "hostRules": [
+                {
+                  "hostType": "npm",
+                  "matchHost": "npm.pkg.github.com",
+                  "token": "${{ secrets.NPM_TOKEN }}"
+                }
+              ],
               "packageRules": [
                 {
                   "matchPackageNames": ["@nadyakarandasheva/ui-library"],
