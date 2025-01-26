@@ -2,15 +2,24 @@
   "extends": [
     "config:base"
   ],
+  "platform": "github",
+  "hostRules": [
+    {
+      "hostType": "npm",
+      "matchHost": "npm.pkg.github.com",
+      "token": "${NPM_TOKEN}"
+    }
+  ],
+  "enabledManagers": [
+    "npm"
+  ],
   "packageRules": [
     {
       "matchPackageNames": [
         "@nadyakarandasheva/ui-library"
       ],
       "groupName": "UI Library Updates",
-      "schedule": [
-        "at any time"
-      ]
+      "enabled": true
     }
   ]
 }

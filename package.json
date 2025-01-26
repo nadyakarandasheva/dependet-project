@@ -13,11 +13,16 @@
     "update:ui-library": "npm update ui-library"
   },
   "dependencies": {
-    "@nadyakarandasheva/ui-library": "^1.0.15",
+    "@nadyakarandasheva/ui-library": "^1.0.22",
+    "@rollup/plugin-alias": "^5.1.1",
     "classnames": "^2.5.1",
+    "re2": "^1.21.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1",
+    "renovate": "^39.133.4",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^4.8.3"
   },
   "browserslist": {
