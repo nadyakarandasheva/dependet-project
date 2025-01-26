@@ -21,10 +21,12 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           RENOVATE_CONFIG: >  # Указываем конфигурацию напрямую
             {
+              "repositories": ["nadyakarandasheva/dependet-project"],
               "enabledManagers": ["npm"],
               "packageRules": [
                 {
                   "matchPackageNames": ["@nadyakarandasheva/ui-library"],
+                  "depTypeList": ["dependencies", "devDependencies"],
                   "enabled": true,
                   "groupName": "UI Library Updates"
                 }
