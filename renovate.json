@@ -7,7 +7,7 @@
     {
       "hostType": "npm",
       "matchHost": "npm.pkg.github.com",
-      "token": "${RENOVATE_TOKEN}"
+      "token": "${NPM_TOKEN}"
     }
   ],
   "enabledManagers": [
