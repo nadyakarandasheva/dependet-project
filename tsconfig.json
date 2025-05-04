@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "jsx": "react",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "ES6",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strict": true
   }
 }

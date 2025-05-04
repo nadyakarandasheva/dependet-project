@@ -1,11 +1,10 @@
-import React from 'react';
-import { Button } from '@nadyakarandasheva/ui-library';
+import { InputWithLabel } from "@nadyakarandasheva/common";
 
 export const App = () => {
   return (
     <div>
       <h1>Проект с UI-библиотекой</h1>
-      <Button label="click!" onClick={() => alert('You click!')} />
+      <InputWithLabel label={"Example lable"} id={"0"} placeholder={"Example placeholder"} />
     </div>
   );
 };
